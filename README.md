@@ -1,6 +1,6 @@
-# Cleanfolio Minimal
+# PORTFOLIO de Pedro Berustein
 
-A portfolio template built with HTML, CSS, and JavaScript.
+Mi portfolio con mi INFORMACIÓN, CV, PROYECTOS, HABILIDADES y DATOS DE CONTACTO.
 
 ## Preview
 
@@ -8,6 +8,4 @@ A portfolio template built with HTML, CSS, and JavaScript.
 
 [Live Demo](https://rajshekhar26.github.io/cleanfolio-minimal)
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+## Gracias por verlo!
