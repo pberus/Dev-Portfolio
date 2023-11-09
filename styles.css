@@ -182,10 +182,78 @@ button {
   background-color: var(--clr-bg-alt);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   border: 0;
+  font-weight: bold;
 }
 
 .btn--plain:hover {
-  transform: translateY(-4px);
+  transform: translateY(-4px); 
+}
+
+.btn--plain.html {
+  background-color:#ff5722;
+  color: white;
+}
+
+.btn--plain.js {
+  background-color: #f7e018;
+  color: black;
+}
+
+.btn--plain.css {
+  background-color: #0096dc;
+  color: white;
+}
+
+.btn--plain.react {
+  background-color: #2b2c2f;
+  color: #61dafb;
+}
+
+.btn--plain.redux {
+  background-color: #764abc;
+  color: #ffffff;
+}
+
+.btn--plain.m-ui {
+  color: #0081cb;
+}
+
+.btn--plain.tailwind {
+  color: #01acb7;
+}
+
+.btn--plain.less {
+  background-color: #254e85;
+  color: white;
+}
+
+.btn--plain.node {
+  background-color: #8ac400;
+  color: black;
+}
+
+.btn--plain.postsql {
+  background-color: #336791;
+  color: black;
+}
+
+.btn--plain.express {
+  color: #888473;
+  font-weight: initial;
+}
+
+.btn--plain.sequelize {
+  color: #2e3d6f;
+}
+
+.btn--plain.git {
+  background-color: #ef4f33;
+  color: white;
+}
+
+.btn--plain.trello {
+  background-color: #0080cb;
+  color: white;
 }
 
 .btn--icon {
