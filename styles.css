@@ -199,6 +199,11 @@ button {
   color: black;
 }
 
+.btn--plain.ts {
+  background-color: #3178c6;
+  color: white;
+}
+
 .btn--plain.css {
   background-color: #0096dc;
   color: white;
