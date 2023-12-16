@@ -202,6 +202,20 @@ button {
 .btn--plain.ts {
   background-color: #3178c6;
   color: white;
+  position: relative;
+}
+
+.text-new{
+  font-size: 0.5em;
+  color: rgb(255, 0, 0);
+  background: none;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 3px;
+  left: 98px;
+  border: 1px solid red;
+  padding: 2px; 
+  transform: rotate(25deg);
 }
 
 .btn--plain.css {
