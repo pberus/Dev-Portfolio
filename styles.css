@@ -251,18 +251,27 @@ button {
   color: black;
 }
 
-.btn--plain.postsql {
-  background-color: #336791;
-  color: black;
-}
-
 .btn--plain.express {
   color: #888473;
   font-weight: initial;
 }
 
+.btn--plain.postsql {
+  background-color: #336791;
+  color: black;
+}
+
 .btn--plain.sequelize {
   color: #2e3d6f;
+}
+
+.btn--plain.mongodb {
+  background-color: black;
+  color: #00f667;
+}
+
+.btn--plain.mongoose {
+  color: #880000;
 }
 
 .btn--plain.react-native {
