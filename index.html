@@ -10,13 +10,31 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <script
       src="https://kit.fontawesome.com/fa62c117c7.js"
       crossorigin="anonymous"
@@ -24,20 +42,30 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Pedro Berustein</title>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMRKLCJG70"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HMRKLCJG70"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-HMRKLCJG70');
+      gtag("config", "G-HMRKLCJG70");
     </script>
   </head>
   <body class="light" id="top">
     <header class="header center">
       <h3>
         <a href="https://pedroberustein.netlify.app/" class="link">
-          <img src="./assets/Logotipo-PB.png" alt="logotipo PB" height="60" width="60">
+          <img
+            src="./assets/Logotipo-PB.png"
+            alt="logotipo PB"
+            height="60"
+            width="60"
+          />
         </a>
       </h3>
 
@@ -74,15 +102,24 @@
         <h1>Hola! Soy <span class="about__name">Pedro Berustein.</span></h1>
         <h2 class="about__role">Desarrollador FullStack</h2>
         <p class="about__desc">
-          Tambien soy estudiante avanzado de Licenciatura en Sistemas. <br>
-          Formación en desarrollo web, principalmente con <b>JavaScript, TypeScript, HTML, CSS, React, Redux, NodeJs, Express, PostgreSQL con Sequelize y MongoDB con Mongoose</b>, y móvil con <b>React Native</b>.<br>
-          Reciente experiencia laboral, como Ai Code Reviewer, y academica en proyectos individuales y en equipo aplicando <b>Scrum, Git y herramientas de gestión de proyectos</b>. <br>
-          Tengo una certificación <b>C1 (Advanced) de inglés</b>. <br>
+          Tambien soy estudiante avanzado de Licenciatura en Sistemas. <br />
+          Formación en desarrollo web, principalmente con
+          <b
+            >JavaScript, TypeScript, HTML, CSS, React, Redux, NodeJs, Express,
+            PostgreSQL con Sequelize y MongoDB con Mongoose</b
+          >, y móvil con <b>React Native</b>.<br />
+          Reciente experiencia laboral, como <b>AI Code Reviewer</b>, y
+          academica en proyectos individuales y en equipo aplicando
+          <b>Scrum, Git y herramientas de gestión de proyectos</b>. <br />
+          Tengo una certificación <b>C1 (Advanced) de inglés</b>. <br />
           ¡Espero su contacto!
         </p>
 
         <div class="about__contact center">
-          <a href="https://drive.google.com/file/d/1UoNqR3uTGgKYXXnV6dlN7nEGSUsRHbUh/view?usp=sharing" target="_blank">
+          <a
+            href="https://drive.google.com/file/d/1UoNqR3uTGgKYXXnV6dlN7nEGSUsRHbUh/view?usp=sharing"
+            target="_blank"
+          >
             <span class="btn btn--outline"> Mira mi CV</span>
           </a>
 
@@ -92,7 +129,11 @@
             class="link link--icon"
             target="_blank"
           >
-          <i aria-hidden="true" class="fab fa-github"></i>
+            <img
+              style="width: 30px; height: 30px; display: flex"
+              src="./assets/github.png"
+              alt="github profile"
+            />
           </a>
 
           <a
@@ -101,114 +142,14 @@
             class="link link--icon"
             target="_blank"
           >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
+            <img
+              style="width: 30px; height: 30px; display: flex"
+              src="./assets/linkedin.png"
+              alt="linkedin profile"
+            />
           </a>
         </div>
       </div>
-
-      <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Proyectos</h2>
-
-        <div class="projects__grid">
-          <div class="project">
-            <h3>DoggyGo <img src="/assets/Logo-doggygo.png" alt="logo doggygo" height="25" width="25"></h3>
-            <p class="project__description">
-              Proyecto Final (PF) de SoyHenry en JavaScript y React para conectar a dueños de perros con paseadores
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">React</li>
-              <li class="project__stack-item">Redux</li>
-              <li class="project__stack-item">Tailwind</li>
-              <li class="project__stack-item">Material UI</li>
-              <li class="project__stack-item">NodeJS</li>
-              <li class="project__stack-item">Express</li>
-              <li class="project__stack-item">PostgreSQL</li>
-              <li class="project__stack-item">Sequelize</li>
-              <li class="project__stack-item">git</li>
-              <li class="project__stack-item">Scrum</li>
-              <li class="project__stack-item">Trello</li>
-            </ul>
-
-            <a
-              href="https://github.com/pberus/DoggyGo"
-              aria-label="source code"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://doggy-go.onrender.com/"
-              aria-label="live preview"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <h3>Countries <img src="/assets/planet-earth.png" alt="logo countries" height="25" width="25"></h3>
-            <p class="project__description">
-              SPA conectada a una API externa sobre países, utilizando las tecnologías React, Redux, Node, Express y Sequelize, y la arquitectura REST."
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">React</li>
-              <li class="project__stack-item">Redux</li>
-              <li class="project__stack-item">NodeJS</li>
-              <li class="project__stack-item">Express</li>
-              <li class="project__stack-item">PostgreSQL</li>
-              <li class="project__stack-item">Sequelize</li>
-              <li class="project__stack-item">git</li>
-              <li class="project__stack-item">REST Countries API</li>
-            </ul>
-
-            <a
-              href="https://github.com/pberus/ProyectoIntegradorCountries"
-              aria-label="source code"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://countries-api-proyect.onrender.com/"
-              aria-label="live preview"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <h3>Rick and Morty <img src="/assets/rickandmorty.png" alt="logo rickandmorty" height="35" width="35"></h3>
-            <p class="project__description">
-              SPA conectada a una API externa sobre todos los personajes de RICK AND MORTY, en una arquitectura REST.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">React</li>
-              <li class="project__stack-item">Redux</li>
-              <li class="project__stack-item">NodeJS</li>
-              <li class="project__stack-item">Express</li>
-              <li class="project__stack-item">PostgreSQL</li>
-              <li class="project__stack-item">Sequelize</li>
-              <li class="project__stack-item">git</li>
-              <li class="project__stack-item">The Rick and Morty API</li>
-            </ul>
-
-            <a
-              href="https://github.com/pberus/rick_and_morty"
-              aria-label="source code"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-          </div>
-        </div>
-      </section>
 
       <!-- Skills -->
       <section class="section skills" id="skills">
@@ -242,15 +183,167 @@
         </ul>
       </section>
 
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Proyectos</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>
+              DoggyGo
+              <img
+                src="/assets/Logo-doggygo.png"
+                alt="logo doggygo"
+                height="25"
+                width="25"
+              />
+            </h3>
+            <p class="project__description">
+              Proyecto Final (PF) de SoyHenry en JavaScript y React para
+              conectar a dueños de perros con paseadores
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Redux</li>
+              <li class="project__stack-item">Tailwind</li>
+              <li class="project__stack-item">Material UI</li>
+              <li class="project__stack-item">NodeJS</li>
+              <li class="project__stack-item">Express</li>
+              <li class="project__stack-item">PostgreSQL</li>
+              <li class="project__stack-item">Sequelize</li>
+              <li class="project__stack-item">git</li>
+              <li class="project__stack-item">Scrum</li>
+              <li class="project__stack-item">Trello</li>
+            </ul>
+
+            <a
+              href="https://github.com/pberus/DoggyGo"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <img
+                style="width: 25px; height: 25px"
+                src="./assets/github.png"
+                alt="github DoggyGo"
+              />
+            </a>
+            <a
+              href="https://doggy-go.onrender.com/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <img
+                style="width: 25px; height: 25px"
+                src="./assets/share.png"
+                alt="DoggyGo web"
+              />
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>
+              Countries
+              <img
+                src="/assets/planet-earth.png"
+                alt="logo countries"
+                height="25"
+                width="25"
+              />
+            </h3>
+            <p class="project__description">
+              SPA conectada a una API externa sobre países, utilizando las
+              tecnologías React, Redux, Node, Express y Sequelize, y la
+              arquitectura REST."
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Redux</li>
+              <li class="project__stack-item">NodeJS</li>
+              <li class="project__stack-item">Express</li>
+              <li class="project__stack-item">PostgreSQL</li>
+              <li class="project__stack-item">Sequelize</li>
+              <li class="project__stack-item">git</li>
+              <li class="project__stack-item">REST Countries API</li>
+            </ul>
+
+            <a
+              href="https://github.com/pberus/ProyectoIntegradorCountries"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <img
+                style="width: 25px; height: 25px"
+                src="./assets/github.png"
+                alt="github Countries"
+              />
+            </a>
+            <a
+              href="https://countries-api-proyect.onrender.com/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <img
+                style="width: 25px; height: 25px"
+                src="./assets/share.png"
+                alt="Countries web"
+              />
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>
+              Rick and Morty
+              <img
+                src="/assets/rickandmorty.png"
+                alt="logo rickandmorty"
+                height="35"
+                width="35"
+              />
+            </h3>
+            <p class="project__description">
+              SPA conectada a una API externa sobre todos los personajes de RICK
+              AND MORTY, en una arquitectura REST.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">React</li>
+              <li class="project__stack-item">Redux</li>
+              <li class="project__stack-item">NodeJS</li>
+              <li class="project__stack-item">Express</li>
+              <li class="project__stack-item">PostgreSQL</li>
+              <li class="project__stack-item">Sequelize</li>
+              <li class="project__stack-item">git</li>
+              <li class="project__stack-item">The Rick and Morty API</li>
+            </ul>
+
+            <a
+              href="https://github.com/pberus/rick_and_morty"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <img
+                style="width: 25px; height: 25px"
+                src="./assets/github.png"
+                alt="github profile"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
       <!-- Contact -->
       <section class="section contact center" id="contact">
         <h2 class="section__title">Contacto</h2>
         <a href="mailto:pedroberustein03@gmail.com" target="_blank">
           <span class="btn btn--outline">Enviar email</span>
         </a>
-        <br>
+        <br />
         <b>/</b>
-        <br>
+        <br />
         <a href="https://calendly.com/pedroberustein/meeting" target="_blank">
           <span class="btn btn--outline">Agendar meeting</span>
         </a>
@@ -268,11 +361,11 @@
     </footer>
 
     <div class="scroll-container">
-    <div class="scroll-top">
-      <a aria-label="Scroll up" href="#top">
-        <i aria-hidden="true" class="fas fa-arrow-up"></i>
-      </a>
-    </div>
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
     </div>
 
     <script src="./script.js"></script>
