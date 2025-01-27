@@ -233,6 +233,11 @@ button {
   color: #ffffff;
 }
 
+.btn--plain.bootstrap {
+  background-color: #7210f5;
+  color: #ffffff;
+}
+
 .btn--plain.m-ui {
   color: #0081cb;
 }
@@ -437,6 +442,10 @@ main {
 
 .project:hover {
   transform: translateY(-7px);
+}
+
+.project.principal {
+  
 }
 
 .project__description {
