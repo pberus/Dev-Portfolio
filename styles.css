@@ -62,6 +62,7 @@ h3,
 h4 {
   line-height: 1.2;
   color: var(--clr-fg-alt);
+  text-align: center;
 }
 
 h1 {
@@ -444,8 +445,14 @@ main {
   transform: translateY(-7px);
 }
 
-.project.principal {
-  
+.principal {
+  margin-bottom: 10px;
+}
+
+.principal video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .project__description {
@@ -542,11 +549,6 @@ main {
   .nav__hamburger {
     display: flex;
     margin-left: 0.8em;
-  }
-
-  .about {
-    align-items: flex-start;
-    margin-top: 2em;
   }
 
   .footer {
